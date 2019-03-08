@@ -17,8 +17,9 @@
         <title>Protótipo de Sistema</title>
 
         <style>
-            .navbar{height: 40px}
-            .nav-item{font-size: xx-large}            
+            .navbar{height: 50px;}
+            .nav-item{font-size: xx-large;} 
+            .nav-link{font-size: xx-large; padding: 10px 10px;}
         </style>
 </head>
 
@@ -27,7 +28,7 @@
         <nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed-top justify-content-center">
             
             <a class="navbar-brand">
-                <img src="icon3.png" alt="logo" style="width:40px;">
+                <img src="icon2.png" alt="logo" style="width:60px; height: 40px;">
             </a>
                      
             <ul class="navbar-nav">
