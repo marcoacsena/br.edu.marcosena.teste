@@ -11,20 +11,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="PaginaInicial.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <title>Protótipo de Sistema</title>
-
-    <style>
-        
-        .navbar{height: 50px;}
-        .nav-item{font-size: x-large;} 
-        .nav-link{font-size: x-large; padding: 10px 10px;}
-        .footer{width: 100%; background-color:cadetblue; text-align: center; padding: 8px; 
-               margin-top: 200px; bottom: 0px ; position: fixed;}
- 
-    </style>
+    <title>Sistema AVICENA</title>    
         
 </head>
 
@@ -42,7 +33,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="#">Consultar Paciente</a>
-                        <a class="dropdown-item" href="#">Cadastrar Paciente</a>
+                        <a class="dropdown-item" href="CadastrarPaciente.jsp">Cadastrar Paciente</a>
                         <a class="dropdown-item" href="#">Listar Todos os Pacientes</a>
                         <a class="dropdown-item" href="#">Atualizar Paciente</a> 
                         <a class="dropdown-item" href="#">Excluir Paciente</a>
@@ -100,7 +91,7 @@
     </nav>
 
     <div class="container-fluid" style="margin-top:80px">
-        <h1>Primeira Página do Protótipo de Sistema!</h1>
+        <h1>Página Principal do Sistema AVICENA!</h1>
 
     </div>
 
